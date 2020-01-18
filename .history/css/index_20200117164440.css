@@ -476,7 +476,7 @@ footer p {
 	nav ul {
 		height: 60px;
 		top: 80px;
-		width: 90%;
+		width: 100%;
 	}
 }
 
@@ -498,6 +498,6 @@ footer p {
 	}
 
 	header.index {
-		margin-top: 230px;
+		margin-top: 210px;
 	}
 }

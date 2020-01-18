@@ -476,17 +476,15 @@ footer p {
 	nav ul {
 		height: 60px;
 		top: 80px;
-		width: 90%;
 	}
 }
 
 @media (max-width: 500px) {
-	.container {
+	container {
 		width: 100%;
 	}
 	nav ul {
 		display: block;
-		background-color: transparent;
 	}
 
 	nav ul li.bottom-border {
@@ -495,9 +493,5 @@ footer p {
 
 	.mobile-header {
 		display: none;
-	}
-
-	header.index {
-		margin-top: 230px;
 	}
 }

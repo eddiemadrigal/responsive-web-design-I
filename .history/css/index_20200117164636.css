@@ -476,13 +476,18 @@ footer p {
 	nav ul {
 		height: 60px;
 		top: 80px;
+		width: 100%;
+	}
+
+	.container {
 		width: 90%;
 	}
+
 }
 
 @media (max-width: 500px) {
 	.container {
-		width: 100%;
+		width: 90%;
 	}
 	nav ul {
 		display: block;
