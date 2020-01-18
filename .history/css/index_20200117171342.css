@@ -441,7 +441,7 @@ ul.section4-ul {
 
 footer p {
 	text-align: center;
-	margin: 3% 0;
+	margin: 40px 0;
 	font-size: 1rem;
 }
 
@@ -460,10 +460,6 @@ footer p {
 		display: block;
 		margin-top: 20px;
 		text-align: center;
-	}
-
-	.mobile-header img {
-		width: 90%;
 	}
 	
 	header.index {
@@ -530,10 +526,10 @@ footer p {
 	}
 
 	.bottom-section article:first-child, address {
-		padding-left: 4%;
+		padding-left: 20px;
 	}
 
 	.middle-img {
-		padding: 0 4%;
+		padding: 0 2%;
 	}
 }

@@ -441,7 +441,7 @@ ul.section4-ul {
 
 footer p {
 	text-align: center;
-	margin: 3% 0;
+	margin: 8% 0;
 	font-size: 1rem;
 }
 
@@ -460,10 +460,7 @@ footer p {
 		display: block;
 		margin-top: 20px;
 		text-align: center;
-	}
-
-	.mobile-header img {
-		width: 90%;
+		width: 50%
 	}
 	
 	header.index {
