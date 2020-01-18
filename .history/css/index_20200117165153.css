@@ -459,6 +459,9 @@ footer p {
 	div.top-logo {
 		display: block;
 		margin-top: 20px;
+	}
+
+	div.top-logo {
 		text-align: center;
 	}
 	
@@ -481,19 +484,10 @@ footer p {
 	.container {
 		width: 100%;
 	}
-
 	nav ul {
 		display: block;
 		background-color: transparent;
 		width: 100%;
-		position: absolute;
-		margin-top: 15px;
-	}
-
-	nav ul li.bottom-border:first-child {
-		border-bottom: 1px solid black;
-		border-top: 1px solid black;
-		padding-bottom: 25px;
 	}
 
 	nav ul li.bottom-border {
@@ -506,26 +500,6 @@ footer p {
 	}
 
 	header.index {
-		margin-top: 400px;
-	}
-
-	section.top-section {
-		display: block;
-	}
-
-	section.top-section article {
-		width: 100%;
-	}
-
-	section.bottom-section {
-		display: block;
-	}
-
-	section.bottom-section article {
-		width: 100%;
-	}
-
-	.bottom-section article:first-child, address {
-		padding-left: 20px;
+		margin-top: 230px;
 	}
 }

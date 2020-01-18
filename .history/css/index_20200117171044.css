@@ -525,7 +525,7 @@ footer p {
 		width: 100%;
 	}
 
-	.bottom-section article:first-child, address {
+	.bottom-section article:first-child, address * {
 		padding-left: 20px;
 	}
 }

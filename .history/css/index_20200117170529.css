@@ -482,6 +482,10 @@ footer p {
 		width: 100%;
 	}
 
+	div.top-logo {
+		
+	}
+
 	nav ul {
 		display: block;
 		background-color: transparent;
@@ -525,7 +529,7 @@ footer p {
 		width: 100%;
 	}
 
-	.bottom-section article:first-child, address {
+	.bottom-section article:first-child {
 		padding-left: 20px;
 	}
 }
