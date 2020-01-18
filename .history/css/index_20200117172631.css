@@ -271,7 +271,7 @@ hr.bg-hr {
 /* HR margin starts here */
 
 hr {
-	margin: 4% 0;
+	margin: 20px 0;
 }
 
 /* HR margin ends here */
@@ -479,10 +479,6 @@ footer p {
 		top: 80px;
 		width: 90%;
 	}
-	
-	button {
-		margin-bottom: 10px;
-	}
 }
 
 @media (max-width: 500px) {
@@ -541,10 +537,7 @@ footer p {
 		padding: 0 4%;
 	}
 
-	.hr-mobile {
-		width: 92%;
-		margin: 4% auto;
+	hr {
+		padding: 2% 0;
 	}
-
-	
 }

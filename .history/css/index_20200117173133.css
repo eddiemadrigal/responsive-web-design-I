@@ -479,10 +479,6 @@ footer p {
 		top: 80px;
 		width: 90%;
 	}
-	
-	button {
-		margin-bottom: 10px;
-	}
 }
 
 @media (max-width: 500px) {
@@ -542,9 +538,7 @@ footer p {
 	}
 
 	.hr-mobile {
-		width: 92%;
+		width: 96%;
 		margin: 4% auto;
 	}
-
-	
 }
