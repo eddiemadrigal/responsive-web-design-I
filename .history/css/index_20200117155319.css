@@ -457,7 +457,6 @@ footer p {
 	}
 
 	nav ul {
-		height: 60px;
-		top: 60px;
+		background-color: transparent;
 	}
 }

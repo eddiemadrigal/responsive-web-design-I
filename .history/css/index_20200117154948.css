@@ -455,9 +455,4 @@ footer p {
 	nav ul li:last-child {
 		display: none;
 	}
-
-	nav ul {
-		height: 60px;
-		top: 60px;
-	}
 }

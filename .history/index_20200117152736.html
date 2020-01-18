@@ -9,22 +9,19 @@
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-
   <script>
-    function getWidth() {
-      var w = window.outerWidth;
-      var h = window.outerHeight;
-      var txt = "Window size: width=" + w + ", height=" + h;
-      document.getElementById("size").innerHTML = txt;
-    }
+  function getWidth() {
+    document.getElementById("width").innerHTML = screen.width;
+  }
+    
   </script>
 
 </head>
 
-<body onresize="getWidth();" onload="getWidth();">
+<body onload="getWidth();">
   <div class="container">
 
-    <p id="size" style="font-size: 14px; text-align: center;">Width</p>
+    <p id="width" style="font-size: 14px; text-align: center;">Width</p>
     <!-- begin nav bar-->
     <nav>
       <ul>

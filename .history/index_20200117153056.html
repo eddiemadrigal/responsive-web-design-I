@@ -15,16 +15,16 @@
       var w = window.outerWidth;
       var h = window.outerHeight;
       var txt = "Window size: width=" + w + ", height=" + h;
-      document.getElementById("size").innerHTML = txt;
+      document.getElementById("demo").innerHTML = txt;
     }
   </script>
 
 </head>
 
-<body onresize="getWidth();" onload="getWidth();">
+<body onresize="getWidth();">
   <div class="container">
 
-    <p id="size" style="font-size: 14px; text-align: center;">Width</p>
+    <p id="width" style="font-size: 14px; text-align: center;">Width</p>
     <!-- begin nav bar-->
     <nav>
       <ul>

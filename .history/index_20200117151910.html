@@ -1,7 +1,6 @@
 <!doctype html>
 
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Great Idea - Responsive I</title>
@@ -10,21 +9,14 @@
   <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
-  <script>
-    function getWidth() {
-      var w = window.outerWidth;
-      var h = window.outerHeight;
-      var txt = "Window size: width=" + w + ", height=" + h;
-      document.getElementById("size").innerHTML = txt;
-    }
-  </script>
-
 </head>
 
-<body onresize="getWidth();" onload="getWidth();">
+<body>
   <div class="container">
-
-    <p id="size" style="font-size: 14px; text-align: center;">Width</p>
+    <script>
+    document.getElementById("width").innerHTML("Total Width: " + screen.width);
+    </script>
+    <p id="width">
     <!-- begin nav bar-->
     <nav>
       <ul>
