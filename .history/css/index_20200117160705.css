@@ -291,10 +291,6 @@ p {
 	margin: 0 auto;
 }
 
-div.top-logo {
-	display: none;
-}
-
 button {
 	padding: 5px 25px;
 	margin-top: 15px;
@@ -456,17 +452,8 @@ footer p {
 /* Text customizing ends here */
 
 @media (max-width: 800px) {
-	div.top-logo {
-		display: block;
-		margin-top: 20px;
-	}
-
-	div.top-logo {
-		text-align: center;
-	}
-	
 	header.index {
-		margin-top: 110px;
+		margin-top: 160px;
 	}
 	
 	nav ul li:last-child {
@@ -475,6 +462,6 @@ footer p {
 
 	nav ul {
 		height: 60px;
-		top: 80px;
+		top: 60px;
 	}
 }
