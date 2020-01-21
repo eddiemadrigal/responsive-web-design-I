@@ -249,19 +249,6 @@ button {
 
 /* body container ends here */
 
-/* Start scroll y */
-
-#top-progress-bar {
-	height: 5px;
-	background-color: #ccc;
-	position: fixed;
-	z-index: 9999;
-	top: 0;
-	left: 50%;
-  }
-
-/* End scroll  */
-
 /* nav starts here */
 
 nav ul {

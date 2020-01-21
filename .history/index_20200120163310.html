@@ -14,7 +14,7 @@
 
 <body>
   <div class="container">
-    <div id="top-progress-bar"></div>
+
     <div class="top-logo"><a href="#"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a></div>
     <!-- begin nav bar-->
     <nav>
@@ -25,8 +25,7 @@
         <li class="bottom-border scale"><a href="#">Features</a></li>
         <li class="bottom-border scale"><a href="about.html">About</a></li>
         <li class="bottom-border scale"><a href="#">Contact</a></li>
-        <li class="bottom-border scale"><a href="#"><img class="logo" src="img/logo.png"
-              alt="Great Idea! Company logo."></a></li>
+        <li class="bottom-border scale"><a href="#"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a></li>
       </ul>
     </nav>
     <!-- end nav bar -->
@@ -85,7 +84,7 @@
     <!-- main ends here -->
     <hr class="hr-mobile" />
     <!-- address starts here -->
-    <address class="scale">
+    <address class="scale-address">
       <h2>Contact</h2>
       <p>123 Way 456 Street</br>
         Somewhere, USA</p>
@@ -99,18 +98,6 @@
     </footer>
     <!-- footer ends here -->
   </div>
-  <script>
-    window.onscroll = function () {
-      let h = document.documentElement,
-          b = document.body,
-          st = 'scrollTop',
-          sh = 'scrollHeight';
-          // console.log(((h[st] / (h[sh] - h.clientHeight)) * 100).toFixed(0) + "%");
-      let progressWidth = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100; 
-      document.getElementById("top-progress-bar").style.width = progressWidth.toFixed(0) + "%";
-      document.getElementById("top-progress-bar").style.left = (50 - (progressWidth.toFixed(0) / 2)) + "%";
-    };
-  </script>
 </body>
 
 </html>

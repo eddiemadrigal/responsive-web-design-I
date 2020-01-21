@@ -257,7 +257,7 @@ button {
 	position: fixed;
 	z-index: 9999;
 	top: 0;
-	left: 50%;
+	max-width: 100%;
   }
 
 /* End scroll  */

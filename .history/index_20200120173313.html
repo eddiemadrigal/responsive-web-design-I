@@ -14,7 +14,9 @@
 
 <body>
   <div class="container">
-    <div id="top-progress-bar"></div>
+    <div style="color: red; position: fixed; top: 0; z-index: 10; background-color: #fff;"><span id="currentY"></span> /
+      <span id="maxY"></span></div>
+    <div class="top-progress-bar"></div>
     <div class="top-logo"><a href="#"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a></div>
     <!-- begin nav bar-->
     <nav>
@@ -101,14 +103,20 @@
   </div>
   <script>
     window.onscroll = function () {
-      let h = document.documentElement,
-          b = document.body,
-          st = 'scrollTop',
-          sh = 'scrollHeight';
-          // console.log(((h[st] / (h[sh] - h.clientHeight)) * 100).toFixed(0) + "%");
-      let progressWidth = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100; 
-      document.getElementById("top-progress-bar").style.width = progressWidth.toFixed(0) + "%";
-      document.getElementById("top-progress-bar").style.left = (50 - (progressWidth.toFixed(0) / 2)) + "%";
+      // ---
+
+      let d = document.body.clientHeight; // good
+      let c = 0;
+      //d = document.documentElement.height(),
+      let s = window.scrollY;
+      let currY = d - c;
+      //var scrollPercent = (s / (d - c)) * 100;
+      // $("div.top-progress-bar").width(scrollPercent.toFixed(0) + "%");
+      // $("div.top-progress-bar").css("left", (50 - scrollPercent.toFixed(0) / 2) + "%");
+
+      // ---
+      document.getElementById("maxY").innerHTML = currY;
+      document.getElementById("currentY").innerHTML = c;
     };
   </script>
 </body>

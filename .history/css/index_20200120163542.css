@@ -169,6 +169,17 @@ h5 {
 	cursor: pointer;
 }
 
+.scale-address {
+	transition: transform .2s ease-in-out;
+}
+
+.scale-address:hover {
+	transform: scale(1.1);
+	z-index: 1;
+	cursor: pointer;
+	padding-left: 100px;
+}
+
 /* CSS animations stop here */
 
 /* Background modifications start here */
@@ -248,19 +259,6 @@ button {
 }
 
 /* body container ends here */
-
-/* Start scroll y */
-
-#top-progress-bar {
-	height: 5px;
-	background-color: #ccc;
-	position: fixed;
-	z-index: 9999;
-	top: 0;
-	left: 50%;
-  }
-
-/* End scroll  */
 
 /* nav starts here */
 
@@ -359,11 +357,6 @@ article {
 	padding: 20px;
 	width: 49%;
 	background-color: #eee;
-}
-
-address {
-	padding: 20px;
-	display: inline-block;
 }
 
 .section4 article {
