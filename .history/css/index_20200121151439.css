@@ -518,7 +518,7 @@ footer p {
 	main.services section.section1, main.services section.section2, main.services section.section3, main.services section.section4 {
 		flex-wrap: wrap;
 		width: 90%;
-		margin: 0 auto;
+		margin: 4% auto;
 	}
 
 	section.top-section {
