@@ -463,6 +463,10 @@ footer p {
 		margin-bottom: 10px;
 	}
 
+	main.services {
+		display: block;
+	}
+
 	section.section1 {
 		flex-wrap: wrap;
 		width: 100%;
@@ -497,27 +501,8 @@ footer p {
 		display: none;
 	}
 
-	header.index, header.services {
+	header.index {
 		margin-top: 400px;
-	}
-
-	header.services {
-		margin-top: 430px;
-	}
-
-	header.services section.services-text {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	article.services {
-		width: 100%;
-	}
-
-	main.services section.section1, main.services section.section2, main.services section.section3, main.services section.section4 {
-		flex-wrap: wrap;
-		width: 90%;
-		margin: 0 auto;
 	}
 
 	section.top-section {

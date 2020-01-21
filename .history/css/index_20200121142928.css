@@ -387,7 +387,7 @@ ul.section4-ul {
 	list-style-position: inside;
 	margin-top: 15px;
 	line-height: 1.5;
-	font-family: 'Ibarra Real Nova', serif;
+	font-family: 'Bangers', cursive;
 }
 
 .services-info-img {
@@ -462,11 +462,6 @@ footer p {
 	button {
 		margin-bottom: 10px;
 	}
-
-	section.section1 {
-		flex-wrap: wrap;
-		width: 100%;
-	}
 }
 
 @media (max-width: 500px) {
@@ -497,27 +492,8 @@ footer p {
 		display: none;
 	}
 
-	header.index, header.services {
+	header.index {
 		margin-top: 400px;
-	}
-
-	header.services {
-		margin-top: 430px;
-	}
-
-	header.services section.services-text {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	article.services {
-		width: 100%;
-	}
-
-	main.services section.section1, main.services section.section2, main.services section.section3, main.services section.section4 {
-		flex-wrap: wrap;
-		width: 90%;
-		margin: 0 auto;
 	}
 
 	section.top-section {

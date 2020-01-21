@@ -510,12 +510,8 @@ footer p {
 		margin: 0 auto;
 	}
 
-	article.services {
-		width: 100%;
-	}
-
-	main.services section.section1, main.services section.section2, main.services section.section3, main.services section.section4 {
-		flex-wrap: wrap;
+	main.services section.section1 {
+		display: block;
 		width: 90%;
 		margin: 0 auto;
 	}

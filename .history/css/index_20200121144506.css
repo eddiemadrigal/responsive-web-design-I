@@ -501,21 +501,12 @@ footer p {
 		margin-top: 400px;
 	}
 
-	header.services {
-		margin-top: 430px;
-	}
-
-	header.services section.services-text {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	article.services {
+	header.services section img {
+		margin-top: 30px;
 		width: 100%;
 	}
 
-	main.services section.section1, main.services section.section2, main.services section.section3, main.services section.section4 {
-		flex-wrap: wrap;
+	header.services section {
 		width: 90%;
 		margin: 0 auto;
 	}

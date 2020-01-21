@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Great Idea - Responsive I</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="top-progress-bar"></div>
+    <div class="top-logo"><a href="#"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a></div>
+    <!-- begin nav bar-->
+    <nav>
+      <ul>
+        <li class="bottom-border scale"><a href="services.html">Services</a></li>
+        <li class="bottom-border scale"><a href="#">Product</a></li>
+        <li class="bottom-border scale"><a href="#">Vision</a></li>
+        <li class="bottom-border scale"><a href="#">Features</a></li>
+        <li class="bottom-border scale"><a href="#>About</a></li>
+        <li class="bottom-border scale"><a href="#">Contact</a></li>
+        <li class="bottom-border scale"><a href="index.html"><img class="logo" src="img/logo.png"
+              alt="Great Idea! Company logo."></a></li>
+      </ul>
+    </nav>
+    <!-- end nav bar -->
+
+    <!-- begin header -->
+    <header class="index">
+      <div class="header scale">
+        <h1>
+          Innovation<br />
+          On<br />
+          Demand
+        </h1>
+        <button class="move-btn">
+          Get Started
+        </button>
+      </div>
+      <div class="header mobile-header scale">
+        <img src="img/header-img.png" alt="Image of a code snippet.">
+      </div>
+    </header>
+    <!-- end header -->
+    <hr class="hr-mobile" />
+    <!-- main starts here -->
+    <main>
+      <section class="top-section">
+        <article class="scale">
+          <h2>Features</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </article>
+        <article class="scale">
+          <h2>About</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </article>
+      </section>
+      <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+      <section class="bottom-section">
+        <article class="scale">
+          <h2>Services</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </article>
+        <article class="scale">
+          <h2>Product</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </article>
+        <article class="scale">
+          <h2>Vision</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </article>
+      </section>
+    </main>
+    <!-- main ends here -->
+    <hr class="hr-mobile" />
+    <!-- address starts here -->
+    <address class="scale">
+      <h2>Contact</h2>
+      <p>123 Way 456 Street</br>
+        Somewhere, USA</p>
+      <p class="para-v-spacing"><a href="tel:1-888-888-8888">1 (888) 888-8888</a></p>
+      <p><a href="mailto:sales@greatidea.io">sales@greatidea.io</a></p>
+    </address>
+    <!-- address ends here -->
+    <!-- footer starts here-->
+    <footer>
+      <p>Copyright Great Idea! 2020</p>
+    </footer>
+    <!-- footer ends here -->
+  </div>
+  <script>
+    window.onscroll = function () {
+      let h = document.documentElement,
+          b = document.body,
+          st = 'scrollTop',
+          sh = 'scrollHeight';
+          // console.log(((h[st] / (h[sh] - h.clientHeight)) * 100).toFixed(0) + "%");
+      let progressWidth = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100; 
+      document.getElementById("top-progress-bar").style.width = progressWidth.toFixed(0) + "%";
+      document.getElementById("top-progress-bar").style.left = (50 - (progressWidth.toFixed(0) / 2)) + "%";
+    };
+  </script>
+</body>
+
+</html>
